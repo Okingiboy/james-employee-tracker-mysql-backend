@@ -12,7 +12,7 @@ So that I can organize and plan my business
 
 This application follows the database shcema containing three variables:
 
-![](image/schema.PNG)
+![](image/12-sql-homework-demo-01.PNG)
 
 ## About
 
