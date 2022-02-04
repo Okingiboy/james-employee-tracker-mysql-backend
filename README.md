@@ -55,14 +55,14 @@ Application tree structure: The application is user friendly and built to handle
 * MySQL
 
 ## Demo
-![](image/screen.PNG)
+![](image/12-sql-homework-video-thumbnail.PNG)
 
 Do you want to learn more about this program? Please <a href="https://drive.google.com/file/d/1YR7YOwPlGoaFdIdoFeKc9-ysnnY5sM2P/view"> click here for a video demo </a>.
 
 ## Author
-* Lloyd Marcelino, 02/23/2020
+* James Chukwu, 02/04/2022
 
 ## License
-see The MIT License (MIT)
+UT Austin Boot-Camp
 
 
