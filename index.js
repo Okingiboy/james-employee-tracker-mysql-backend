@@ -28,13 +28,11 @@ const connection = mysql.createConnection({
     user: 'root',
 
     // Your password
-    password: 'PlacePassWordHere',
-    database: 'employeesDB'
+    password: 'Ogbugo$1960',
+    database: 'employees'
 });
 
-connection.connect(function (err) {
-    if (err) throw err;
-    console.log("connected as id " + connection.threadId);
+function initialFunc() {
     console.log(`
     ╔═══╗─────╔╗──────────────╔═╗╔═╗
     ║╔══╝─────║║──────────────║║╚╝║║
@@ -45,13 +43,15 @@ connection.connect(function (err) {
     ───────║║──────╔═╝║─────────────────────╔═╝║
     ───────╚╝──────╚══╝─────────────────────╚══╝`)
     // runs the app
-    firstPrompt();
-});
-
-connection.connect(err => {
-    if (err) throw err;
     prompt();
-});
+};
+
+initialFunc();
+
+//connection.connect(err => {
+//    if (err) throw err;
+//    prompt();
+//});
 
 function prompt() {
     inquirer
